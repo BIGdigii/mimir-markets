@@ -1,0 +1,27 @@
+{
+  "default_branch": "main",
+  "branches": [
+    "fix/issue-441-test-agents-cover-traders-persona-configuration",
+    "fix/issue-467-test-api-cover-agent-directory-and-basket",
+    "fix/issue-483-test-agents-replay-council-decisions-against",
+    "main",
+    "origin",
+    "security/issue-445-feat-security-fence-claim-text-in-the-council"
+  ],
+  "parent": {
+    "fix/issue-441-test-agents-cover-traders-persona-configuration": "main",
+    "fix/issue-467-test-api-cover-agent-directory-and-basket": "main",
+    "fix/issue-483-test-agents-replay-council-decisions-against": "main",
+    "main": null,
+    "origin": "main",
+    "security/issue-445-feat-security-fence-claim-text-in-the-council": "main"
+  },
+  "order": [
+    "main",
+    "fix/issue-441-test-agents-cover-traders-persona-configuration",
+    "fix/issue-467-test-api-cover-agent-directory-and-basket",
+    "fix/issue-483-test-agents-replay-council-decisions-against",
+    "origin",
+    "security/issue-445-feat-security-fence-claim-text-in-the-council"
+  ]
+}
